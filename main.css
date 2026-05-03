@@ -1,25 +1,72 @@
-
-body {
-    background-color: #d1d7df;
-    color: white;
-    font-family: "Martian Mono", monospace;
-    margin: 0px;
-    /* забираємо стандартні відступи в тега body */
+footer{
+    margin: 0%;
 }
-
-header {
-    background: #dab4b4;
-    width:100%
-}
-
-header.fixed {
-    position: fixed;
-    /* Фіксоване позиціонування */
-    top: 0;
-    /* Закріплено зверху */
+.footer_img{
+    height: 500px;
     width: 100%;
-    /* Ширина за всю ширину вікна */
-    background: #272727;
-    max-width: 100%;
-    z-index: 100;
+    filter:brightness(0.5)
+}
+
+.Kontaktu{
+    font-family: "Orbitron",sans-serif;
+    position: absolute;
+    top:10px;
+    color:white;
+    margin: 20px;
+    opacity:0.7;
+}
+
+.Footer_h2{
+    opacity:1;
+    font-family: "Orbitron",sans-serif;
+    letter-spacing: 2px;
+}
+
+footer{
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.dark {
+    --color-badge-processing: #3094FF;
+    --color-badge-success: #08872B;
+    --color-badge-error: #B91C1C;
+    --color-bground-primary: var(--color-black-true);
+    --color-bground-secondary: var(--color-gray-13);
+    --color-bground-tertiary: var(--color-gray-11);
+    --color-fground-primary: var(--color-gray-1);
+    --color-fground-secondary: var(--color-gray-8);
+    --color-fground-tertiary: var(--color-gray-9);
+    --color-accent-border: var(--color-gray-11);
+    --color-accent-focus: var(--color-blue-0);
+    --color-accent-error: var(--color-red-700);
 }
